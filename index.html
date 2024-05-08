@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ebb-fundraisign</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/4b2acde997.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header ">
+      <div class="container">
+        <div class="text-xl grid items-center gap-1 text-center">
+          <h1 class="">➡️Send EGLD to this Address</h1>
+
+          <!-- copy adress -->
+
+          <div class="flex items-center justify-center bg-gray-100">
+            <div
+              class="mx-5 lg:w-6/12 bg-gray-800 shadow-2xl rounded-lg overflow-hidden"
+            >
+              <div id="header-buttons" class="py-3 px-4 flex justify-between">
+                <button
+                  id="copyButton"
+                  class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+                >
+                  copy adress
+                </button>
+                <span class="text-yellow-300"> 😈👿</span>
+              </div>
+              <div id="code-area" class="py-4 px-4 mt-1 text-white text-xl">
+                <div class="mb-2">
+                  <div class="sub-line">
+                    <span id="address" class="text-blue-400">
+                      erd1n4czahdkc5axqf7vw7c2jja4je4sshs0pyy7frsqruhxzf4k5qpqgszh0</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+      </div>
+    </div>
+    <!-- header end -->
+
+    <!-- ------------card -1------------- -->
+
+    <link
+      rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+
+    <section class="relative pt-12 bg-blueGray-50">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+          <img
+            alt="..."
+            class="max-w-full rounded-lg shadow-lg"
+            src="./img/stage.jpg"
+          />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <!-- <div
+              class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300 mt-8"
+            >
+              <i class="fas fa-rocket text-xl"></i>
+            </div> -->
+            <h3 class="text-2xl font-semibold">
+              🔻 EGLD raised will be used to list EBB on:
+            </h3>
+            <p class="mt-4 text-xl leading-relaxed text-blueGray-500">
+              xExchange: 490 EGLD ~ 24h after fundraising closed
+            </p>
+            <h3 class="text-2xl font-semibold">Burnify 10 EGLD</h3>
+            <p class="mt-4 text-xl leading-relaxed text-blueGray-500">
+              🔻 Participants will receive 30% of their $EBB tokens each day
+              until the full amount is released to their wallet, and the listing
+              will follow shortly on all dex-es mentioned above.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="relative pt-8 pb-6 mt-8">
+        <div class="container mx-auto px-4">
+          <div
+            class="flex flex-wrap items-center md:justify-between justify-center"
+          >
+            <div class="w-full md:w-6/12 px-4 mx-auto text-center"></div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ---------------image  -->
+
+    <div className="w-[300px] rounded-md border">
+      <img
+        src="./img/stage.jpg"
+        alt="Laptop"
+        className="h-[200px] w-full rounded-md object-cover"
+      />
+    </div>
+
+    <!-- -----footer -->
+
+    <footer
+      class="p-4 tex-l text-white bg-black md:p-8 lg:p-10 dark:bg-gray-800"
+    >
+      <div class="mx-auto max-w-screen-xl text-center">
+        <p class="my-6 text-white dark:text-gray-400">
+          welcome to my ebb-fundraisign area for better way
+        </p>
+        <ul
+          class="flex flex-wrap justify-center items-center mb-6 text-white dark:text-white"
+        >
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+          </li>
+
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">ebb-fundraisign</a>
+          </li>
+        </ul>
+        <span class="text-sm text-white sm:text-center dark:text-gray-400"
+          >© 2024 <a href="#" class="hover:underline">ebb-fundraisign</a>. All
+          Rights Reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- -----------javascript------- -->
+    <script src="./script.js"></script>
+  </body>
+</html>
